@@ -11,7 +11,8 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet var tableView : UITableView!
-    @IBOutlet var navigationBar : UINavigationBar!
+    //@IBOutlet var navigationBar : UINavigationBar!
+    //@IBOutlet var tabBar: UITabBarController?
     
     
     
@@ -22,6 +23,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.tableView.dataSource = self
         self.title = "Perfil"
     }
+    
+    @IBAction func showPopUp () {
+        //self.navigationController?.navigationBar
+        //self.navigationController?.tabBarController?.tabBar.isHidden = true
+        //self.tabBar?.tabBar.isHidden = true
+        self.navigationController?.tabBarController?.performSegue(withIdentifier: "one", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("custom")
+    }
+    
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         

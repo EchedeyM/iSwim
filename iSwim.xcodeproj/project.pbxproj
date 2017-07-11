@@ -26,7 +26,6 @@
 		DBE8A29A1F0BFEEC00798A78 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */; };
 		DBE8A29C1F0C028800798A78 /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A29B1F0C028800798A78 /* AddCardVC.swift */; };
 		DBF018701F0E8D8C00232A37 /* Separador.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF0186F1F0E8D8C00232A37 /* Separador.png */; };
-		DBF6AB251F0FBD6B000C3156 /* iSwim Background.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF6AB241F0FBD6B000C3156 /* iSwim Background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +71,6 @@
 		DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		DBE8A29B1F0C028800798A78 /* AddCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
 		DBF0186F1F0E8D8C00232A37 /* Separador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Separador.png; path = ../../../Downloads/Separador.png; sourceTree = "<group>"; };
-		DBF6AB241F0FBD6B000C3156 /* iSwim Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iSwim Background.png"; path = "../../iSwim Background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,7 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				DB01A9101F050AD100B9A8FE /* Main.storyboard */,
-				DBF6AB241F0FBD6B000C3156 /* iSwim Background.png */,
 				DBF0186F1F0E8D8C00232A37 /* Separador.png */,
 				DB1BDBAA1F0D4888002DD7A5 /* default_profile.png */,
 				DB04165A1F03FC7D00035439 /* LaunchScreen.storyboard */,
@@ -305,7 +302,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB04165C1F03FC7D00035439 /* LaunchScreen.storyboard in Resources */,
-				DBF6AB251F0FBD6B000C3156 /* iSwim Background.png in Resources */,
 				DBF018701F0E8D8C00232A37 /* Separador.png in Resources */,
 				DB0416591F03FC7D00035439 /* Assets.xcassets in Resources */,
 				DB01A9121F050AD100B9A8FE /* Main.storyboard in Resources */,
