@@ -18,7 +18,6 @@
 		DB0416671F03FC7D00035439 /* iSwimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0416661F03FC7D00035439 /* iSwimTests.swift */; };
 		DB0416721F03FC7D00035439 /* iSwimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0416711F03FC7D00035439 /* iSwimUITests.swift */; };
 		DB1BDBAB1F0D4888002DD7A5 /* default_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1BDBAA1F0D4888002DD7A5 /* default_profile.png */; };
-		DB1BDBAD1F0D488E002DD7A5 /* background_default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB1BDBAC1F0D488E002DD7A5 /* background_default.jpg */; };
 		DB7B23D71F13A519000E8FF1 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B23D61F13A519000E8FF1 /* Sign.swift */; };
 		DBB0BBF11F056F830024D2FB /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0BBF01F056F830024D2FB /* Cards.swift */; };
 		DBB0BBF31F0573A40024D2FB /* ProfileStaticViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0BBF21F0573A40024D2FB /* ProfileStaticViewCell.swift */; };
@@ -65,7 +64,6 @@
 		DB0416711F03FC7D00035439 /* iSwimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSwimUITests.swift; sourceTree = "<group>"; };
 		DB0416731F03FC7D00035439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB1BDBAA1F0D4888002DD7A5 /* default_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_profile.png; path = ../../../Downloads/default_profile.png; sourceTree = "<group>"; };
-		DB1BDBAC1F0D488E002DD7A5 /* background_default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_default.jpg; path = ../../../Downloads/background_default.jpg; sourceTree = "<group>"; };
 		DB7B23D61F13A519000E8FF1 /* Sign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 		DBB0BBF01F056F830024D2FB /* Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		DBB0BBF21F0573A40024D2FB /* ProfileStaticViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileStaticViewCell.swift; sourceTree = "<group>"; };
@@ -184,7 +182,6 @@
 				DB01A9101F050AD100B9A8FE /* Main.storyboard */,
 				DBF6AB241F0FBD6B000C3156 /* iSwim Background.png */,
 				DBF0186F1F0E8D8C00232A37 /* Separador.png */,
-				DB1BDBAC1F0D488E002DD7A5 /* background_default.jpg */,
 				DB1BDBAA1F0D4888002DD7A5 /* default_profile.png */,
 				DB04165A1F03FC7D00035439 /* LaunchScreen.storyboard */,
 			);
@@ -313,7 +310,6 @@
 				DB0416591F03FC7D00035439 /* Assets.xcassets in Resources */,
 				DB01A9121F050AD100B9A8FE /* Main.storyboard in Resources */,
 				DB1BDBAB1F0D4888002DD7A5 /* default_profile.png in Resources */,
-				DB1BDBAD1F0D488E002DD7A5 /* background_default.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

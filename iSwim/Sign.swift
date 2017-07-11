@@ -19,10 +19,10 @@ class Sign : UIViewController {
         super.viewDidLoad()
         sign?.layer.borderColor = UIColor.white.cgColor
         sign?.layer.borderWidth = 2.0
-        sign?.layer.cornerRadius = 15
+        sign?.layer.cornerRadius = 24
         register?.layer.borderColor = UIColor.white.cgColor
         register?.layer.borderWidth = 2.0
-        register?.layer.cornerRadius = 15
+        register?.layer.cornerRadius = 24
         
     }
 }
