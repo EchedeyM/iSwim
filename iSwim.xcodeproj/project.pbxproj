@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB01A9121F050AD100B9A8FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB01A9101F050AD100B9A8FE /* Main.storyboard */; };
+		DB01A9141F051C0D00B9A8FE /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01A9131F051C0D00B9A8FE /* ProfileTableViewCell.swift */; };
+		DB01A91C1F05571200B9A8FE /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01A91B1F05571200B9A8FE /* Users.swift */; };
+		DB02CDD71F066F570080AB65 /* GoupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02CDD61F066F570080AB65 /* GoupsViewController.swift */; };
+		DB0416521F03FC7D00035439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0416511F03FC7D00035439 /* AppDelegate.swift */; };
+		DB0416541F03FC7D00035439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0416531F03FC7D00035439 /* ViewController.swift */; };
+		DB0416591F03FC7D00035439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0416581F03FC7D00035439 /* Assets.xcassets */; };
+		DB04165C1F03FC7D00035439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB04165A1F03FC7D00035439 /* LaunchScreen.storyboard */; };
+		DB0416671F03FC7D00035439 /* iSwimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0416661F03FC7D00035439 /* iSwimTests.swift */; };
+		DB0416721F03FC7D00035439 /* iSwimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0416711F03FC7D00035439 /* iSwimUITests.swift */; };
+		DB1BDBAB1F0D4888002DD7A5 /* default_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1BDBAA1F0D4888002DD7A5 /* default_profile.png */; };
+		DB1BDBAD1F0D488E002DD7A5 /* background_default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB1BDBAC1F0D488E002DD7A5 /* background_default.jpg */; };
+		DB7B23D71F13A519000E8FF1 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B23D61F13A519000E8FF1 /* Sign.swift */; };
+		DBB0BBF11F056F830024D2FB /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0BBF01F056F830024D2FB /* Cards.swift */; };
+		DBB0BBF31F0573A40024D2FB /* ProfileStaticViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0BBF21F0573A40024D2FB /* ProfileStaticViewCell.swift */; };
+		DBB6A0D71F0E978B00DA9210 /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB6A0D61F0E978B00DA9210 /* CardController.swift */; };
+		DBE8A2971F0BEA8800798A78 /* GroupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A2961F0BEA8800798A78 /* GroupViewCell.swift */; };
+		DBE8A29A1F0BFEEC00798A78 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */; };
+		DBE8A29C1F0C028800798A78 /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A29B1F0C028800798A78 /* AddCardVC.swift */; };
+		DBF018701F0E8D8C00232A37 /* Separador.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF0186F1F0E8D8C00232A37 /* Separador.png */; };
+		DBF6AB251F0FBD6B000C3156 /* iSwim Background.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF6AB241F0FBD6B000C3156 /* iSwim Background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB0416631F03FC7D00035439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0416461F03FC7D00035439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB04164D1F03FC7D00035439;
+			remoteInfo = iSwim;
+		};
+		DB04166E1F03FC7D00035439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0416461F03FC7D00035439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB04164D1F03FC7D00035439;
+			remoteInfo = iSwim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB01A9111F050AD100B9A8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB01A9131F051C0D00B9A8FE /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		DB01A91B1F05571200B9A8FE /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		DB02CDD61F066F570080AB65 /* GoupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoupsViewController.swift; sourceTree = "<group>"; };
+		DB04164E1F03FC7D00035439 /* iSwim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSwim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0416511F03FC7D00035439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB0416531F03FC7D00035439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB0416581F03FC7D00035439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB04165B1F03FC7D00035439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB04165D1F03FC7D00035439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0416621F03FC7D00035439 /* iSwimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSwimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0416661F03FC7D00035439 /* iSwimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSwimTests.swift; sourceTree = "<group>"; };
+		DB0416681F03FC7D00035439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB04166D1F03FC7D00035439 /* iSwimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSwimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0416711F03FC7D00035439 /* iSwimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSwimUITests.swift; sourceTree = "<group>"; };
+		DB0416731F03FC7D00035439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1BDBAA1F0D4888002DD7A5 /* default_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_profile.png; path = ../../../Downloads/default_profile.png; sourceTree = "<group>"; };
+		DB1BDBAC1F0D488E002DD7A5 /* background_default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_default.jpg; path = ../../../Downloads/background_default.jpg; sourceTree = "<group>"; };
+		DB7B23D61F13A519000E8FF1 /* Sign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		DBB0BBF01F056F830024D2FB /* Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		DBB0BBF21F0573A40024D2FB /* ProfileStaticViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileStaticViewCell.swift; sourceTree = "<group>"; };
+		DBB6A0D61F0E978B00DA9210 /* CardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		DBE8A2961F0BEA8800798A78 /* GroupViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewCell.swift; sourceTree = "<group>"; };
+		DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		DBE8A29B1F0C028800798A78 /* AddCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
+		DBF0186F1F0E8D8C00232A37 /* Separador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Separador.png; path = ../../../Downloads/Separador.png; sourceTree = "<group>"; };
+		DBF6AB241F0FBD6B000C3156 /* iSwim Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iSwim Background.png"; path = "../../iSwim Background.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB04164B1F03FC7D00035439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB04165F1F03FC7D00035439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB04166A1F03FC7D00035439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0416451F03FC7D00035439 = {
+			isa = PBXGroup;
+			children = (
+				DB0416501F03FC7D00035439 /* iSwim */,
+				DB0416651F03FC7D00035439 /* iSwimTests */,
+				DB0416701F03FC7D00035439 /* iSwimUITests */,
+				DB04164F1F03FC7D00035439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB04164F1F03FC7D00035439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB04164E1F03FC7D00035439 /* iSwim.app */,
+				DB0416621F03FC7D00035439 /* iSwimTests.xctest */,
+				DB04166D1F03FC7D00035439 /* iSwimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB0416501F03FC7D00035439 /* iSwim */ = {
+			isa = PBXGroup;
+			children = (
+				DB0416581F03FC7D00035439 /* Assets.xcassets */,
+				DB0416511F03FC7D00035439 /* AppDelegate.swift */,
+				DB04165D1F03FC7D00035439 /* Info.plist */,
+				DBE8A2981F0BFEB700798A78 /* IBDesignables */,
+				DB0416831F03FF5700035439 /* Model */,
+				DB0416841F03FF7A00035439 /* Controller */,
+				DB0416851F03FFA200035439 /* View */,
+			);
+			path = iSwim;
+			sourceTree = "<group>";
+		};
+		DB0416651F03FC7D00035439 /* iSwimTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0416661F03FC7D00035439 /* iSwimTests.swift */,
+				DB0416681F03FC7D00035439 /* Info.plist */,
+			);
+			path = iSwimTests;
+			sourceTree = "<group>";
+		};
+		DB0416701F03FC7D00035439 /* iSwimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0416711F03FC7D00035439 /* iSwimUITests.swift */,
+				DB0416731F03FC7D00035439 /* Info.plist */,
+			);
+			path = iSwimUITests;
+			sourceTree = "<group>";
+		};
+		DB0416831F03FF5700035439 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB01A91B1F05571200B9A8FE /* Users.swift */,
+				DBB0BBF01F056F830024D2FB /* Cards.swift */,
+				DB7B23D61F13A519000E8FF1 /* Sign.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DB0416841F03FF7A00035439 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB0416531F03FC7D00035439 /* ViewController.swift */,
+				DB01A9131F051C0D00B9A8FE /* ProfileTableViewCell.swift */,
+				DBB0BBF21F0573A40024D2FB /* ProfileStaticViewCell.swift */,
+				DB02CDD61F066F570080AB65 /* GoupsViewController.swift */,
+				DBE8A2961F0BEA8800798A78 /* GroupViewCell.swift */,
+				DBE8A29B1F0C028800798A78 /* AddCardVC.swift */,
+				DBB6A0D61F0E978B00DA9210 /* CardController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DB0416851F03FFA200035439 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB01A9101F050AD100B9A8FE /* Main.storyboard */,
+				DBF6AB241F0FBD6B000C3156 /* iSwim Background.png */,
+				DBF0186F1F0E8D8C00232A37 /* Separador.png */,
+				DB1BDBAC1F0D488E002DD7A5 /* background_default.jpg */,
+				DB1BDBAA1F0D4888002DD7A5 /* default_profile.png */,
+				DB04165A1F03FC7D00035439 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DBE8A2981F0BFEB700798A78 /* IBDesignables */ = {
+			isa = PBXGroup;
+			children = (
+				DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */,
+			);
+			name = IBDesignables;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB04164D1F03FC7D00035439 /* iSwim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0416761F03FC7D00035439 /* Build configuration list for PBXNativeTarget "iSwim" */;
+			buildPhases = (
+				DB04164A1F03FC7D00035439 /* Sources */,
+				DB04164B1F03FC7D00035439 /* Frameworks */,
+				DB04164C1F03FC7D00035439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSwim;
+			productName = iSwim;
+			productReference = DB04164E1F03FC7D00035439 /* iSwim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB0416611F03FC7D00035439 /* iSwimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0416791F03FC7D00035439 /* Build configuration list for PBXNativeTarget "iSwimTests" */;
+			buildPhases = (
+				DB04165E1F03FC7D00035439 /* Sources */,
+				DB04165F1F03FC7D00035439 /* Frameworks */,
+				DB0416601F03FC7D00035439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0416641F03FC7D00035439 /* PBXTargetDependency */,
+			);
+			name = iSwimTests;
+			productName = iSwimTests;
+			productReference = DB0416621F03FC7D00035439 /* iSwimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB04166C1F03FC7D00035439 /* iSwimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB04167C1F03FC7D00035439 /* Build configuration list for PBXNativeTarget "iSwimUITests" */;
+			buildPhases = (
+				DB0416691F03FC7D00035439 /* Sources */,
+				DB04166A1F03FC7D00035439 /* Frameworks */,
+				DB04166B1F03FC7D00035439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB04166F1F03FC7D00035439 /* PBXTargetDependency */,
+			);
+			name = iSwimUITests;
+			productName = iSwimUITests;
+			productReference = DB04166D1F03FC7D00035439 /* iSwimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0416461F03FC7D00035439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Estudiante;
+				TargetAttributes = {
+					DB04164D1F03FC7D00035439 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UD64K5DPAE;
+						ProvisioningStyle = Automatic;
+					};
+					DB0416611F03FC7D00035439 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB04164D1F03FC7D00035439;
+					};
+					DB04166C1F03FC7D00035439 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB04164D1F03FC7D00035439;
+					};
+				};
+			};
+			buildConfigurationList = DB0416491F03FC7D00035439 /* Build configuration list for PBXProject "iSwim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB0416451F03FC7D00035439;
+			productRefGroup = DB04164F1F03FC7D00035439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB04164D1F03FC7D00035439 /* iSwim */,
+				DB0416611F03FC7D00035439 /* iSwimTests */,
+				DB04166C1F03FC7D00035439 /* iSwimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB04164C1F03FC7D00035439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB04165C1F03FC7D00035439 /* LaunchScreen.storyboard in Resources */,
+				DBF6AB251F0FBD6B000C3156 /* iSwim Background.png in Resources */,
+				DBF018701F0E8D8C00232A37 /* Separador.png in Resources */,
+				DB0416591F03FC7D00035439 /* Assets.xcassets in Resources */,
+				DB01A9121F050AD100B9A8FE /* Main.storyboard in Resources */,
+				DB1BDBAB1F0D4888002DD7A5 /* default_profile.png in Resources */,
+				DB1BDBAD1F0D488E002DD7A5 /* background_default.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0416601F03FC7D00035439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB04166B1F03FC7D00035439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB04164A1F03FC7D00035439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB01A9141F051C0D00B9A8FE /* ProfileTableViewCell.swift in Sources */,
+				DBB6A0D71F0E978B00DA9210 /* CardController.swift in Sources */,
+				DB7B23D71F13A519000E8FF1 /* Sign.swift in Sources */,
+				DB0416541F03FC7D00035439 /* ViewController.swift in Sources */,
+				DBB0BBF31F0573A40024D2FB /* ProfileStaticViewCell.swift in Sources */,
+				DB02CDD71F066F570080AB65 /* GoupsViewController.swift in Sources */,
+				DB01A91C1F05571200B9A8FE /* Users.swift in Sources */,
+				DBB0BBF11F056F830024D2FB /* Cards.swift in Sources */,
+				DBE8A2971F0BEA8800798A78 /* GroupViewCell.swift in Sources */,
+				DB0416521F03FC7D00035439 /* AppDelegate.swift in Sources */,
+				DBE8A29C1F0C028800798A78 /* AddCardVC.swift in Sources */,
+				DBE8A29A1F0BFEEC00798A78 /* DesignableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB04165E1F03FC7D00035439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0416671F03FC7D00035439 /* iSwimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0416691F03FC7D00035439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0416721F03FC7D00035439 /* iSwimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB0416641F03FC7D00035439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB04164D1F03FC7D00035439 /* iSwim */;
+			targetProxy = DB0416631F03FC7D00035439 /* PBXContainerItemProxy */;
+		};
+		DB04166F1F03FC7D00035439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB04164D1F03FC7D00035439 /* iSwim */;
+			targetProxy = DB04166E1F03FC7D00035439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB01A9101F050AD100B9A8FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB01A9111F050AD100B9A8FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB04165A1F03FC7D00035439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB04165B1F03FC7D00035439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB0416741F03FC7D00035439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB0416751F03FC7D00035439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0416771F03FC7D00035439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UD64K5DPAE;
+				INFOPLIST_FILE = iSwim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ULPGC.iSwim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DB0416781F03FC7D00035439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UD64K5DPAE;
+				INFOPLIST_FILE = iSwim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ULPGC.iSwim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DB04167A1F03FC7D00035439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iSwimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ULPGC.iSwimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSwim.app/iSwim";
+			};
+			name = Debug;
+		};
+		DB04167B1F03FC7D00035439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iSwimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ULPGC.iSwimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSwim.app/iSwim";
+			};
+			name = Release;
+		};
+		DB04167D1F03FC7D00035439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = iSwimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ULPGC.iSwimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iSwim;
+			};
+			name = Debug;
+		};
+		DB04167E1F03FC7D00035439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = iSwimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ULPGC.iSwimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iSwim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0416491F03FC7D00035439 /* Build configuration list for PBXProject "iSwim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0416741F03FC7D00035439 /* Debug */,
+				DB0416751F03FC7D00035439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0416761F03FC7D00035439 /* Build configuration list for PBXNativeTarget "iSwim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0416771F03FC7D00035439 /* Debug */,
+				DB0416781F03FC7D00035439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0416791F03FC7D00035439 /* Build configuration list for PBXNativeTarget "iSwimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB04167A1F03FC7D00035439 /* Debug */,
+				DB04167B1F03FC7D00035439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB04167C1F03FC7D00035439 /* Build configuration list for PBXNativeTarget "iSwimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB04167D1F03FC7D00035439 /* Debug */,
+				DB04167E1F03FC7D00035439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0416461F03FC7D00035439 /* Project object */;
+}
