@@ -12,11 +12,12 @@ class Users: UITableViewCell {
     
     var name: String?
     var lastName: String?
-    var profilePicture: String = "default_profile.png"
+    var profilePicture: String = "ProfilePicture"
     var descriptionProfile: String = "Hey there! I'm using iSwim!"
-    var backgroundProfile: String = "background_default.jpg"
+    var backgroundProfile: String = "Fondo1"
     var date = Date()
     let locale = Locale.current
+    //var tabBarController : UITabBar?
     
     let formatter = DateFormatter()
     

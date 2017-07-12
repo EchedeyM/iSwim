@@ -13,7 +13,13 @@ class AddCardVC: UIViewController {
     
     @IBOutlet var volumeInCard : UITextField?
     @IBOutlet var ppmInCard : UITextField?
+    @IBOutlet var addButton : UIButton?
+
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "Agregar una tarjeta"
+    }
 
     @IBAction func takeData () {
         CardController.shareController.volume = volumeInCard?.text
@@ -36,12 +42,5 @@ class AddCardVC: UIViewController {
             return "nil"
         }
     }*/
-    
-    
-    @IBAction func dismissPopup(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
-    }
-    
-    
     
 }

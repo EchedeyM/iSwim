@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61C8169D7460339A635EF686 /* Pods_iSwimTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44DF7FB3D50329D4FF6C84C /* Pods_iSwimTests.framework */; };
+		6B70DD486560A5195342AED8 /* Pods_iSwim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DA57980F6E6B0F917150D7 /* Pods_iSwim.framework */; };
+		9BEE4E448B80C2D5FA4F6689 /* Pods_iSwimUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF8EEC804304A9A26DCECC2 /* Pods_iSwimUITests.framework */; };
 		DB01A9121F050AD100B9A8FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB01A9101F050AD100B9A8FE /* Main.storyboard */; };
 		DB01A9141F051C0D00B9A8FE /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01A9131F051C0D00B9A8FE /* ProfileTableViewCell.swift */; };
 		DB01A91C1F05571200B9A8FE /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01A91B1F05571200B9A8FE /* Users.swift */; };
@@ -26,7 +29,6 @@
 		DBE8A29A1F0BFEEC00798A78 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */; };
 		DBE8A29C1F0C028800798A78 /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A29B1F0C028800798A78 /* AddCardVC.swift */; };
 		DBF018701F0E8D8C00232A37 /* Separador.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF0186F1F0E8D8C00232A37 /* Separador.png */; };
-		DBF6AB251F0FBD6B000C3156 /* iSwim Background.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF6AB241F0FBD6B000C3156 /* iSwim Background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BF8EEC804304A9A26DCECC2 /* Pods_iSwimUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSwimUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC90566C41C3E293E2052CB /* Pods-iSwimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSwimTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSwimTests/Pods-iSwimTests.release.xcconfig"; sourceTree = "<group>"; };
+		362AB86E9BBFD5FFF5A542E1 /* Pods-iSwimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSwimTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSwimTests/Pods-iSwimTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91DA57980F6E6B0F917150D7 /* Pods_iSwim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSwim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D2AEB6909721585680B008 /* Pods-iSwim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSwim.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSwim/Pods-iSwim.release.xcconfig"; sourceTree = "<group>"; };
+		B44DF7FB3D50329D4FF6C84C /* Pods_iSwimTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSwimTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17514DEF0382D967AB5EFD9 /* Pods-iSwimUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSwimUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSwimUITests/Pods-iSwimUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DB01A9111F050AD100B9A8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB01A9131F051C0D00B9A8FE /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		DB01A91B1F05571200B9A8FE /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
@@ -72,7 +81,8 @@
 		DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		DBE8A29B1F0C028800798A78 /* AddCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
 		DBF0186F1F0E8D8C00232A37 /* Separador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Separador.png; path = ../../../Downloads/Separador.png; sourceTree = "<group>"; };
-		DBF6AB241F0FBD6B000C3156 /* iSwim Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iSwim Background.png"; path = "../../iSwim Background.png"; sourceTree = "<group>"; };
+		DEAD0FC6F865C626026B2C4C /* Pods-iSwim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSwim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSwim/Pods-iSwim.debug.xcconfig"; sourceTree = "<group>"; };
+		FB278798C7C3C11EF9F91C35 /* Pods-iSwimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSwimUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSwimUITests/Pods-iSwimUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B70DD486560A5195342AED8 /* Pods_iSwim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C8169D7460339A635EF686 /* Pods_iSwimTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +106,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEE4E448B80C2D5FA4F6689 /* Pods_iSwimUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FDB3DC71E823A032E74B0E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91DA57980F6E6B0F917150D7 /* Pods_iSwim.framework */,
+				B44DF7FB3D50329D4FF6C84C /* Pods_iSwimTests.framework */,
+				1BF8EEC804304A9A26DCECC2 /* Pods_iSwimUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ACA6765F2548C80E03E1589 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEAD0FC6F865C626026B2C4C /* Pods-iSwim.debug.xcconfig */,
+				A9D2AEB6909721585680B008 /* Pods-iSwim.release.xcconfig */,
+				362AB86E9BBFD5FFF5A542E1 /* Pods-iSwimTests.debug.xcconfig */,
+				1CC90566C41C3E293E2052CB /* Pods-iSwimTests.release.xcconfig */,
+				FB278798C7C3C11EF9F91C35 /* Pods-iSwimUITests.debug.xcconfig */,
+				C17514DEF0382D967AB5EFD9 /* Pods-iSwimUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DB0416451F03FC7D00035439 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +143,8 @@
 				DB0416651F03FC7D00035439 /* iSwimTests */,
 				DB0416701F03FC7D00035439 /* iSwimUITests */,
 				DB04164F1F03FC7D00035439 /* Products */,
+				9ACA6765F2548C80E03E1589 /* Pods */,
+				8FDB3DC71E823A032E74B0E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				DB01A9101F050AD100B9A8FE /* Main.storyboard */,
-				DBF6AB241F0FBD6B000C3156 /* iSwim Background.png */,
 				DBF0186F1F0E8D8C00232A37 /* Separador.png */,
 				DB1BDBAA1F0D4888002DD7A5 /* default_profile.png */,
 				DB04165A1F03FC7D00035439 /* LaunchScreen.storyboard */,
@@ -203,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB0416761F03FC7D00035439 /* Build configuration list for PBXNativeTarget "iSwim" */;
 			buildPhases = (
+				185EC8B08298CF9F7B3DD7AE /* [CP] Check Pods Manifest.lock */,
 				DB04164A1F03FC7D00035439 /* Sources */,
 				DB04164B1F03FC7D00035439 /* Frameworks */,
 				DB04164C1F03FC7D00035439 /* Resources */,
+				CA6340A004A2227556D6B6E6 /* [CP] Embed Pods Frameworks */,
+				B7E96FFF5344D392D7114D47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB0416791F03FC7D00035439 /* Build configuration list for PBXNativeTarget "iSwimTests" */;
 			buildPhases = (
+				6C365044AE741B8A81448332 /* [CP] Check Pods Manifest.lock */,
 				DB04165E1F03FC7D00035439 /* Sources */,
 				DB04165F1F03FC7D00035439 /* Frameworks */,
 				DB0416601F03FC7D00035439 /* Resources */,
+				7929A73F1A621D4B954E3CD6 /* [CP] Embed Pods Frameworks */,
+				BF9AF171ED8EA94E506C6E22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB04167C1F03FC7D00035439 /* Build configuration list for PBXNativeTarget "iSwimUITests" */;
 			buildPhases = (
+				FECB3BB2990ABBD74257D5F0 /* [CP] Check Pods Manifest.lock */,
 				DB0416691F03FC7D00035439 /* Sources */,
 				DB04166A1F03FC7D00035439 /* Frameworks */,
 				DB04166B1F03FC7D00035439 /* Resources */,
+				7A959806F6CA84BAD3DE32AA /* [CP] Embed Pods Frameworks */,
+				E8A42EA9BD5041B26E4C1BF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,7 +351,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB04165C1F03FC7D00035439 /* LaunchScreen.storyboard in Resources */,
-				DBF6AB251F0FBD6B000C3156 /* iSwim Background.png in Resources */,
 				DBF018701F0E8D8C00232A37 /* Separador.png in Resources */,
 				DB0416591F03FC7D00035439 /* Assets.xcassets in Resources */,
 				DB01A9121F050AD100B9A8FE /* Main.storyboard in Resources */,
@@ -328,6 +373,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		185EC8B08298CF9F7B3DD7AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C365044AE741B8A81448332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7929A73F1A621D4B954E3CD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSwimTests/Pods-iSwimTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A959806F6CA84BAD3DE32AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSwimUITests/Pods-iSwimUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E96FFF5344D392D7114D47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSwim/Pods-iSwim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF9AF171ED8EA94E506C6E22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSwimTests/Pods-iSwimTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6340A004A2227556D6B6E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSwim/Pods-iSwim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A42EA9BD5041B26E4C1BF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSwimUITests/Pods-iSwimUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FECB3BB2990ABBD74257D5F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB04164A1F03FC7D00035439 /* Sources */ = {
@@ -497,6 +680,7 @@
 		};
 		DB0416771F03FC7D00035439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEAD0FC6F865C626026B2C4C /* Pods-iSwim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UD64K5DPAE;
@@ -512,6 +696,7 @@
 		};
 		DB0416781F03FC7D00035439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D2AEB6909721585680B008 /* Pods-iSwim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UD64K5DPAE;
@@ -527,6 +712,7 @@
 		};
 		DB04167A1F03FC7D00035439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362AB86E9BBFD5FFF5A542E1 /* Pods-iSwimTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +727,7 @@
 		};
 		DB04167B1F03FC7D00035439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC90566C41C3E293E2052CB /* Pods-iSwimTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -555,6 +742,7 @@
 		};
 		DB04167D1F03FC7D00035439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB278798C7C3C11EF9F91C35 /* Pods-iSwimUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = iSwimUITests/Info.plist;
@@ -568,6 +756,7 @@
 		};
 		DB04167E1F03FC7D00035439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17514DEF0382D967AB5EFD9 /* Pods-iSwimUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = iSwimUITests/Info.plist;

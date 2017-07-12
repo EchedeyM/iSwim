@@ -13,8 +13,8 @@ class CardController{
     static let shareController = CardController()
     private init() {}
     
-    var volume : String?
-    var ppm : String?
+    var volume : String? = "Default"
+    var ppm : String? = "Default"
     
     //var newArray = [volume, ppm]
     
