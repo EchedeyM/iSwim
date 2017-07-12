@@ -76,10 +76,11 @@
                 <navigationController hidesBarsOnSwipe="YES" id="gx8-FP-VKK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Perfil" id="VNJ-Gg-2G4"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7Ls-Qc-Tyg">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="7Ls-Qc-Tyg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.5990411639213562" green="0.79894191026687622" blue="0.80146807432174683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.59904116389999995" green="0.79894191029999995" blue="0.8014680743" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -131,21 +132,15 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Separador.png" translatesAutoresizingMaskIntoConstraints="NO" id="aKa-zI-CTa">
                                                     <rect key="frame" x="0.0" y="80" width="414" height="144"/>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ld-at-lQx">
-                                                    <rect key="frame" x="313" y="179" width="93" height="30"/>
-                                                    <state key="normal" title="Añadir Amigo"/>
-                                                </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Z8M-Lh-bNC">
-                                                    <rect key="frame" x="-83" y="124" width="374" height="537"/>
+                                                    <rect key="frame" x="-79" y="121" width="374" height="537"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="aKa-zI-CTa" secondAttribute="bottom" constant="-0.5" id="42X-qV-E1J"/>
                                                 <constraint firstItem="aKa-zI-CTa" firstAttribute="top" secondItem="tpx-E7-sSB" secondAttribute="top" constant="80" id="90d-lj-xkb"/>
-                                                <constraint firstItem="6Ld-at-lQx" firstAttribute="trailing" secondItem="tpx-E7-sSB" secondAttribute="trailingMargin" id="Lj7-rY-7oH"/>
                                                 <constraint firstAttribute="trailing" secondItem="aKa-zI-CTa" secondAttribute="trailing" id="hMv-Ym-5tC"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="6Ld-at-lQx" secondAttribute="bottom" constant="6.5" id="kES-Nh-Kl3"/>
                                                 <constraint firstItem="aKa-zI-CTa" firstAttribute="leading" secondItem="tpx-E7-sSB" secondAttribute="leading" id="pbS-w9-9Dj"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -270,15 +265,18 @@
                                 <state key="normal" title="Agregar">
                                     <color key="titleColor" red="0.59904116389999995" green="0.79894191029999995" blue="0.8014680743" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="takeData" destination="rWp-qq-egb" eventType="touchUpInside" id="JCD-8m-bnB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="addButton" destination="29Q-LL-GZm" id="gve-Ic-ykT"/>
-                        <outlet property="ppmInCard" destination="wcd-uG-Fw0" id="SkS-Ab-uno"/>
-                        <outlet property="volumeInCard" destination="bcg-y0-60O" id="jW8-OV-FBn"/>
+                        <outlet property="addButton" destination="29Q-LL-GZm" id="EYX-2w-5HY"/>
+                        <outlet property="ppmInCard" destination="wcd-uG-Fw0" id="xTu-HU-Mqv"/>
+                        <outlet property="volumeInCard" destination="bcg-y0-60O" id="tN8-Eu-m0k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wh6-ae-qNB" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -45,11 +45,4 @@ class AddCardVC: UIViewController {
         }
     }*/
     
-    
-    @IBAction func dismissPopup(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
-    }
-    
-    
-    
 }

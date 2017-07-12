@@ -1,0 +1,6 @@
+framework module Pods_iSwimUITests {
+  umbrella header "Pods-iSwimUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
