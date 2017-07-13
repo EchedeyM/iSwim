@@ -100,7 +100,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView,
                    numberOfRowsInSection section: Int) -> Int {
-        //return section == 0 ? 1 : 15
         return section == 0 ? 1 : newArray.count
     }
     
