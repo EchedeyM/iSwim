@@ -29,6 +29,7 @@
 		DBE8A29A1F0BFEEC00798A78 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */; };
 		DBE8A29C1F0C028800798A78 /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A29B1F0C028800798A78 /* AddCardVC.swift */; };
 		DBF018701F0E8D8C00232A37 /* Separador.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF0186F1F0E8D8C00232A37 /* Separador.png */; };
+		DBFE1C451F17CAEE0083FF84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBFE1C441F17CAEE0083FF84 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		DBE8A29B1F0C028800798A78 /* AddCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
 		DBF0186F1F0E8D8C00232A37 /* Separador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Separador.png; path = ../../../Downloads/Separador.png; sourceTree = "<group>"; };
+		DBFE1C441F17CAEE0083FF84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DEAD0FC6F865C626026B2C4C /* Pods-iSwim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSwim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSwim/Pods-iSwim.debug.xcconfig"; sourceTree = "<group>"; };
 		FB278798C7C3C11EF9F91C35 /* Pods-iSwimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSwimUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSwimUITests/Pods-iSwimUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,6 +165,7 @@
 			children = (
 				DB0416581F03FC7D00035439 /* Assets.xcassets */,
 				DB0416511F03FC7D00035439 /* AppDelegate.swift */,
+				DBFE1C441F17CAEE0083FF84 /* GoogleService-Info.plist */,
 				DB04165D1F03FC7D00035439 /* Info.plist */,
 				DBE8A2981F0BFEB700798A78 /* IBDesignables */,
 				DB0416831F03FF5700035439 /* Model */,
@@ -355,6 +358,7 @@
 				DB0416591F03FC7D00035439 /* Assets.xcassets in Resources */,
 				DB01A9121F050AD100B9A8FE /* Main.storyboard in Resources */,
 				DB1BDBAB1F0D4888002DD7A5 /* default_profile.png in Resources */,
+				DBFE1C451F17CAEE0083FF84 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
