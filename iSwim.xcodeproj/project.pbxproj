@@ -29,6 +29,7 @@
 		DBE8A29A1F0BFEEC00798A78 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */; };
 		DBE8A29C1F0C028800798A78 /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE8A29B1F0C028800798A78 /* AddCardVC.swift */; };
 		DBF018701F0E8D8C00232A37 /* Separador.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF0186F1F0E8D8C00232A37 /* Separador.png */; };
+		DBFCAC501F1FB349007BEBC5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFCAC4F1F1FB349007BEBC5 /* Config.swift */; };
 		DBFE1C451F17CAEE0083FF84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBFE1C441F17CAEE0083FF84 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		DBE8A2991F0BFEEC00798A78 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		DBE8A29B1F0C028800798A78 /* AddCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
 		DBF0186F1F0E8D8C00232A37 /* Separador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Separador.png; path = ../../../Downloads/Separador.png; sourceTree = "<group>"; };
+		DBFCAC4F1F1FB349007BEBC5 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		DBFE1C441F17CAEE0083FF84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DEAD0FC6F865C626026B2C4C /* Pods-iSwim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSwim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSwim/Pods-iSwim.debug.xcconfig"; sourceTree = "<group>"; };
 		FB278798C7C3C11EF9F91C35 /* Pods-iSwimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSwimUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSwimUITests/Pods-iSwimUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				DB01A91B1F05571200B9A8FE /* Users.swift */,
 				DBB0BBF01F056F830024D2FB /* Cards.swift */,
 				DB7B23D61F13A519000E8FF1 /* Sign.swift */,
+				DBFCAC4F1F1FB349007BEBC5 /* Config.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -527,6 +530,7 @@
 				DB0416541F03FC7D00035439 /* ViewController.swift in Sources */,
 				DBB0BBF31F0573A40024D2FB /* ProfileStaticViewCell.swift in Sources */,
 				DB02CDD71F066F570080AB65 /* GoupsViewController.swift in Sources */,
+				DBFCAC501F1FB349007BEBC5 /* Config.swift in Sources */,
 				DB01A91C1F05571200B9A8FE /* Users.swift in Sources */,
 				DBB0BBF11F056F830024D2FB /* Cards.swift in Sources */,
 				DBE8A2971F0BEA8800798A78 /* GroupViewCell.swift in Sources */,

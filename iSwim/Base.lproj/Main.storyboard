@@ -58,17 +58,44 @@
         <!--Configuración-->
         <scene sceneID="hby-Za-x4x">
             <objects>
-                <viewController id="PBB-YW-Ogk" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="DSE-Z2-7zY">
+                <viewController id="PBB-YW-Ogk" customClass="Config" customModule="iSwim" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WGC-VI-cxa"/>
+                        <viewControllerLayoutGuide type="bottom" id="bwn-3G-9YJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t0B-kP-Fu9" customClass="Config" customModule="iSwim" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWc-2K-7Mr">
+                                <rect key="frame" x="20" y="614" width="374" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.12005979936116762" blue="0.056887274677756117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="fSU-Qd-CbT"/>
+                                </constraints>
+                                <state key="normal" title="Cerrar Sesión">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="logOut:" destination="PBB-YW-Ogk" eventType="touchUpInside" id="FXS-Iq-T4I"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </tableView>
+                        <constraints>
+                            <constraint firstItem="QWc-2K-7Mr" firstAttribute="leading" secondItem="t0B-kP-Fu9" secondAttribute="leadingMargin" id="ZB2-b1-6TS"/>
+                            <constraint firstItem="QWc-2K-7Mr" firstAttribute="trailing" secondItem="t0B-kP-Fu9" secondAttribute="trailingMargin" id="hhx-K8-zYJ"/>
+                            <constraint firstItem="bwn-3G-9YJ" firstAttribute="top" secondItem="QWc-2K-7Mr" secondAttribute="bottom" constant="29" id="jX0-5V-0b4"/>
+                        </constraints>
+                    </view>
                     <tabBarItem key="tabBarItem" title="Configuración" image="ConfigTab" selectedImage="ConfigTab" id="l9I-Zo-Gra"/>
+                    <connections>
+                        <segue destination="GTu-ZF-WKX" kind="show" identifier="segue2" id="L1j-d2-vFy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fyT-W3-rfG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2142" y="-207"/>
+            <point key="canvasLocation" x="2139.130434782609" y="-207.06521739130437"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="X1t-pI-dGD">
@@ -503,10 +530,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fondo" translatesAutoresizingMaskIntoConstraints="NO" id="dt6-of-vE7">
-                                <rect key="frame" x="0.0" y="-7" width="422" height="743"/>
+                                <rect key="frame" x="0.0" y="-7" width="422" height="694"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="p74-kX-13O">
-                                <rect key="frame" x="0.0" y="60" width="414" height="676"/>
+                                <rect key="frame" x="0.0" y="60" width="414" height="627"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhV-Rb-wWa">
                                 <rect key="frame" x="52" y="401" width="311" height="30"/>
@@ -533,7 +560,7 @@
                                 <rect key="frame" x="51" y="246" width="312" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correo Electrónico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeF-SE-oyN">
                                 <rect key="frame" x="52" y="206" width="153" height="21"/>
@@ -542,14 +569,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMh-hX-Xdu">
-                                <rect key="frame" x="176" y="667" width="62" height="23"/>
+                                <rect key="frame" x="176" y="618" width="62" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <state key="normal" title="Aquí">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Consulta los términos y la política de privacidad:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0xl-CU-0L6">
-                                <rect key="frame" x="72" y="620" width="270" height="39"/>
+                                <rect key="frame" x="72" y="571" width="270" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="Dol-GH-VBd"/>
                                     <constraint firstAttribute="width" constant="270" id="G4M-gb-vH4"/>
@@ -571,7 +598,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="417-UC-T3h">
-                                <rect key="frame" x="41" y="553" width="340" height="59"/>
+                                <rect key="frame" x="41" y="504" width="340" height="59"/>
                                 <string key="text">Si es la primera vez que inicias iSwim introduce tu correo electrónico y tu contraseña. Luego revisa tu correo y activa tu cuenta. ¡Y ya está!</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -625,7 +652,7 @@
                         <outlet property="passwordTextfield" destination="wJt-lK-CiY" id="p2y-AR-avW"/>
                         <outlet property="register" destination="r9j-zQ-A2v" id="eas-ZQ-7b7"/>
                         <outlet property="sign" destination="HhV-Rb-wWa" id="lcu-Tl-Yo8"/>
-                        <segue destination="eTI-xF-QvD" kind="show" id="8YA-A0-i5V"/>
+                        <segue destination="eTI-xF-QvD" kind="show" identifier="segue" id="8YA-A0-i5V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ldj-2M-phL" userLabel="First Responder" sceneMemberID="firstResponder"/>

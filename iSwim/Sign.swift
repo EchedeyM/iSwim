@@ -22,6 +22,7 @@ class Sign : UIViewController {
             Auth.auth().signIn(withEmail: emailTextfield.text!, password: passwordTextfield.text!, completion: { (user, error) in
                 if user != nil {
                     //Sign in successful
+                    self.performSegue(withIdentifier: "segue", sender: self)
                 } else {
                     if let myError = error {
                         print (myError)
@@ -39,6 +40,7 @@ class Sign : UIViewController {
             Auth.auth().createUser(withEmail: emailTextfield.text!, password: passwordTextfield.text!, completion: { (user, error) in
                 if user != nil {
                     //Sign Up successful
+                    self.performSegue(withIdentifier: "segue", sender: self)
                 } else {
                     if let myError = error {
                         print (myError)
