@@ -63,10 +63,13 @@
                         <viewControllerLayoutGuide type="top" id="WGC-VI-cxa"/>
                         <viewControllerLayoutGuide type="bottom" id="bwn-3G-9YJ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="t0B-kP-Fu9" customClass="Config" customModule="iSwim" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="t0B-kP-Fu9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fondo" translatesAutoresizingMaskIntoConstraints="NO" id="qta-9u-X3o">
+                                <rect key="frame" x="0.0" y="-8" width="423" height="695"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWc-2K-7Mr">
                                 <rect key="frame" x="20" y="614" width="374" height="44"/>
                                 <color key="backgroundColor" red="1" green="0.12005979936116762" blue="0.056887274677756117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -80,12 +83,23 @@
                                     <action selector="logOut:" destination="PBB-YW-Ogk" eventType="touchUpInside" id="FXS-Iq-T4I"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="4VR-k9-7xH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="4VR-k9-7xH" firstAttribute="leading" secondItem="qta-9u-X3o" secondAttribute="leading" id="1RM-xF-7QK"/>
+                            <constraint firstItem="qta-9u-X3o" firstAttribute="top" secondItem="t0B-kP-Fu9" secondAttribute="topMargin" constant="-8" id="91E-Py-n0i"/>
+                            <constraint firstItem="4VR-k9-7xH" firstAttribute="centerX" secondItem="QWc-2K-7Mr" secondAttribute="centerX" id="DLy-Ce-MWj"/>
                             <constraint firstItem="QWc-2K-7Mr" firstAttribute="leading" secondItem="t0B-kP-Fu9" secondAttribute="leadingMargin" id="ZB2-b1-6TS"/>
+                            <constraint firstItem="qta-9u-X3o" firstAttribute="bottom" secondItem="bwn-3G-9YJ" secondAttribute="top" id="a20-kg-Nst"/>
+                            <constraint firstItem="4VR-k9-7xH" firstAttribute="top" secondItem="t0B-kP-Fu9" secondAttribute="top" id="aai-Fq-ke0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qta-9u-X3o" secondAttribute="trailing" constant="-29" id="bWF-CM-k7Q"/>
+                            <constraint firstItem="4VR-k9-7xH" firstAttribute="bottom" secondItem="bwn-3G-9YJ" secondAttribute="top" id="hQQ-XZ-9bn"/>
                             <constraint firstItem="QWc-2K-7Mr" firstAttribute="trailing" secondItem="t0B-kP-Fu9" secondAttribute="trailingMargin" id="hhx-K8-zYJ"/>
                             <constraint firstItem="bwn-3G-9YJ" firstAttribute="top" secondItem="QWc-2K-7Mr" secondAttribute="bottom" constant="29" id="jX0-5V-0b4"/>
+                            <constraint firstItem="qta-9u-X3o" firstAttribute="leading" secondItem="t0B-kP-Fu9" secondAttribute="leading" id="pcm-Hb-06k"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Configuración" image="ConfigTab" selectedImage="ConfigTab" id="l9I-Zo-Gra"/>
@@ -221,6 +235,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="RZX-WV-odw" id="V5e-Y1-RaS"/>
+                                    <outlet property="delegate" destination="RZX-WV-odw" id="okJ-w9-MXH"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -604,6 +622,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRu-WL-WlN">
+                                <rect key="frame" x="52" y="372" width="311" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.91481222747918789" green="0.91481222747918789" blue="0.91481222747918789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -649,6 +674,7 @@
                     </view>
                     <connections>
                         <outlet property="emailTextfield" destination="UQF-uU-U0Y" id="szu-9h-0lS"/>
+                        <outlet property="errormsg" destination="cRu-WL-WlN" id="Ksm-k5-dEi"/>
                         <outlet property="passwordTextfield" destination="wJt-lK-CiY" id="p2y-AR-avW"/>
                         <outlet property="register" destination="r9j-zQ-A2v" id="eas-ZQ-7b7"/>
                         <outlet property="sign" destination="HhV-Rb-wWa" id="lcu-Tl-Yo8"/>

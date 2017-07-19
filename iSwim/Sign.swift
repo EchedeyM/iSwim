@@ -15,6 +15,8 @@ class Sign : UIViewController {
     @IBOutlet var register : UIButton?
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
+    @IBOutlet var errormsg : UILabel!
+    var errorArray : [String] = []
     
     @IBAction func loginAction(_ sender: UIButton) {
         if emailTextfield.text != "" && passwordTextfield.text != "" {
@@ -25,9 +27,12 @@ class Sign : UIViewController {
                     self.performSegue(withIdentifier: "segue", sender: self)
                 } else {
                     if let myError = error {
-                        print (myError)
+                        
+                        self.errorArray = String(describing: myError).components(separatedBy: "\"")
+                        
+                        self.errormsg.text = self.errorArray[1]
                     } else {
-                        print ("ERROR")
+                        self.errormsg.text = "Error"
                     }
                 }
             })
@@ -43,9 +48,11 @@ class Sign : UIViewController {
                     self.performSegue(withIdentifier: "segue", sender: self)
                 } else {
                     if let myError = error {
-                        print (myError)
+                        self.errorArray = String(describing: myError).components(separatedBy: "\"")
+                        
+                        self.errormsg.text = self.errorArray[1]
                     } else {
-                        print ("ERROR")
+                        self.errormsg.text = "Error"
                     }
                 }
             })
@@ -56,10 +63,10 @@ class Sign : UIViewController {
         super.viewDidLoad()
         sign?.layer.borderColor = UIColor.white.cgColor
         sign?.layer.borderWidth = 2.0
-        sign?.layer.cornerRadius = 24
+        sign?.layer.cornerRadius = 15
         register?.layer.borderColor = UIColor.white.cgColor
         register?.layer.borderWidth = 2.0
-        register?.layer.cornerRadius = 24
+        register?.layer.cornerRadius = 15
         
     }
 }

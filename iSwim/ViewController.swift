@@ -7,15 +7,15 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet var tableView : UITableView!
-    var newArray : [Int] = [1, 2, 3, 4, 5, 6, 7, 8]
-    //@IBOutlet var navigationBar : UINavigationBar!
-    //@IBOutlet var tabBar: UITabBarController?
+    var newArray : [String] = []
     
-    
+    var ref : DatabaseReference? 
+
     
     
     override func viewDidLoad() {
@@ -26,9 +26,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     @IBAction func showPopUp () {
-        //self.navigationController?.navigationBar
-        //self.navigationController?.tabBarController?.tabBar.isHidden = true
-        //self.tabBar?.tabBar.isHidden = true
         self.navigationController?.tabBarController?.performSegue(withIdentifier: "one", sender: nil)
     }
     
@@ -47,7 +44,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         view.backgroundColor = UIColor.white
         
         let profileImage = UIImageView.init(frame: CGRect.init(x: 0, y: 0, width: 136, height: 114))
-        //imageView.backgroundColor = UIColor.blue
         profileImage.image = UIImage.init(named: Users().profilePicture)
         
         
@@ -116,7 +112,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             return 220
         }
         
-        return 80
+        return 90
     }
     
     func tableView(_ tableView: UITableView,
@@ -124,9 +120,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if indexPath.section == 1 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "defaultCellForProfile") as! ProfileTableViewCell
             
-            cell.volume?.text = CardController.shareController.volume
-            cell.ppm?.text = CardController.shareController.ppm
-            cell.date?.text = Users().whatDay()
+            cell.volume?.text = newArray[indexPath.row]
+            /*cell.ppm?.text = CardController.shareController.ppm
+            cell.date?.text = Users().whatDay()*/
             return cell
             
         } else {
